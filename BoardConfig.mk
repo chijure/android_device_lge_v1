@@ -24,6 +24,7 @@ TARGET_COMMON_VEE := true
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_v1_defconfig
 BOARD_KERNEL_CMDLINE := androidboot.hardware=v1 androidboot.selinux=permissive
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01300000
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 12582912
