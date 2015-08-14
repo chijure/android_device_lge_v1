@@ -54,9 +54,11 @@ case "$deviceset" in
 		setprop persist.radio.multisim.config dsds
 		setprop persist.multisim.config dsds
 		setprop ro.multi.rild true
-		stop ril-daemon
-		start ril-daemon
-		start ril-daemon1
+		;;
+		"true")
+		setprop persist.radio.multisim.config ""
+		setprop persist.multisim.config ""
+		setprop ro.multi.rild false
 		;;
 	esac
 	;;
