@@ -29,11 +29,3 @@ import init.vee.rc
 
 on fs
     mount_all fstab.v1
-
-on boot
-    start v1set
-
-service v1set /system/bin/sh /init.v1.sh
-    class late_start
-    disabled
-    oneshot
