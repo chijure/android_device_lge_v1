@@ -22,7 +22,7 @@
 $(call inherit-product, device/lge/vee-common/vee-common.mk)
 
 # inherit from the proprietary version
-$(call inherit-product, vendor/lge-vee/vee3/vee3-vendor.mk)
+$(call inherit-product, vendor/lge/vee3/vee3-vendor.mk)
 
 # Rootdir files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/lge/v1/rootdir,root)
