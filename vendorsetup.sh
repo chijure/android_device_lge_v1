@@ -16,3 +16,5 @@
 
 add_lunch_combo cm_v1-userdebug
 add_lunch_combo cm_v1-eng
+add_lunch_combo full_v1-userdebug
+add_lunch_combo full_v1-eng
