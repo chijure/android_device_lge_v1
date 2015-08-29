@@ -17,5 +17,3 @@
 PRODUCT_PROPERTY_OVERRIDES += ro.sf.lcd_density="120"
 # Enforce Phone Mode view
 PRODUCT_PROPERTY_OVERRIDES += ro.screen.layout="normal"
-# Use persist
-PRODUCT_PROPERTY_OVERRIDES += persist.disable.dualsim="false"

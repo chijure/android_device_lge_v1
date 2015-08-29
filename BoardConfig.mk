@@ -44,3 +44,11 @@ DEVICE_RESOLUTION := 240x240
 TARGET_RECOVERY_FSTAB := device/lge/v1/rootdir/fstab.v1
 #TARGET_RECOVERY_FSTAB := device/lge/v1/recovery/recovery.fstab
 
+# OTA Assert
+TARGET_OTA_ASSERT_DEVICE := E410,E411,E415,E420,v1
+
+# Set Device in init based on baseband
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_v1
+TARGET_LIBINIT_DEFINES_FILE := device/lge/v1/init/init_v1.c
+
