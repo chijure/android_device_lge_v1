@@ -50,32 +50,24 @@ void vendor_load_properties() {
         property_set("persist.radio.multisim.config", "none");
         property_set("persist.multisim.config", "none");
         property_set("ro.multi.rild", "false");
-        property_set("ro.build.description", "v1-userdebug 4.4.4 KTU84Q test-keys");
-        property_set("ro.build.fingerprint", "LGE/v1/v1:4.4.4/KTU84Q:userdebug/test-keys");
     } else if (strstr(bbversion, "E411")) {
         property_set("ro.product.device", "E411");
         property_set("ro.product.model", "E411 (L1 II Single)");
         property_set("persist.radio.multisim.config", "none");
         property_set("persist.multisim.config", "none");
         property_set("ro.multi.rild", "false");
-        property_set("ro.build.description", "v1-userdebug 4.4.4 KTU84Q test-keys");
-        property_set("ro.build.fingerprint", "LGE/v1/v1:4.4.4/KTU84Q:userdebug/test-keys");
     } else if (strstr(bbversion, "E415")) {
         property_set("ro.product.device", "E415");
         property_set("ro.product.model", "E415 (L1 II Dual)");
         property_set("persist.radio.multisim.config", "dsds");
         property_set("persist.multisim.config", "dsds");
         property_set("ro.multi.rild", "true");
-        property_set("ro.build.description", "v1-userdebug 4.4.4 KTU84Q test-keys");
-        property_set("ro.build.fingerprint", "LGE/v1/v1:4.4.4/KTU84Q:userdebug/test-keys");
     } else if (strstr(bbversion, "E420")) {
         property_set("ro.product.device", "E420");
         property_set("ro.product.model", "E420 (L1 II Dual)");
         property_set("persist.radio.multisim.config", "dsds");
         property_set("persist.multisim.config", "dsds");
         property_set("ro.multi.rild", "true");
-        property_set("ro.build.description", "v1-userdebug 4.4.4 KTU84Q test-keys");
-        property_set("ro.build.fingerprint", "LGE/v1/v1:4.4.4/KTU84Q:userdebug/test-keys");
     };
 
     property_get("ro.product.device", device);
